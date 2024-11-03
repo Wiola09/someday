@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-./build.sh
+/app/build.sh
 clasp push
 output=$(clasp deploy)
 echo $output
